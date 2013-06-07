@@ -1,0 +1,13 @@
+{% extends 'admin/model/list.html' %}
+
+{% block head %}
+{{ super() }}
+<script src="{{ url_for('static', filename='css/style.css') }}"></script>
+{% endblock %}
+
+{% block tail %}
+{{ super() }}
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% endblock %}
+
+
